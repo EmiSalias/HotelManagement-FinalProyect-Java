@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.gestionar.CheckInController">
+    <Label text="Ingrese el DNI de los pasajeros"/>
+    <VBox fx:id="vdniFields" spacing="10"/>
+    <Button fx:id="confirmarButton" text="Confirmar" onAction="#confirmacion"/>
+</VBox>
